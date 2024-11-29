@@ -21,6 +21,6 @@ Program: [IncidenceCalculations.m]([url](https://github.com/ConcealedHero/Develo
 
   The case of three irradiated solar panels follows a similar methodology as in the two irradiated solar panel case. 
   By first assuming only one face is irradiated, the incidence angles of the three faces are 0°, 90°, and 90°. 
-  By considering an angular change of 1°/s for each face, the incident angle for each face must converge to 45°.
+  By considering an angular change of 1° for each face, the incident angle for each face must converge to 45°.
   
   This methodology was formed on the basis that a maximum of three faces could be observed at any given time.
