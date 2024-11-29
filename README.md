@@ -1,3 +1,7 @@
+Christopher Hernandez
+November 2024
+Development of a Solar Array Deployment Mechanism for a CubeSat
+
 This repository stores the MATLAB code used in the master project of, "Development of a Solar Array Deployment Mechanism for a CubeSat."
 The MATLAB programs used in this repository are listed below with a corresponding description and methodology.
 
