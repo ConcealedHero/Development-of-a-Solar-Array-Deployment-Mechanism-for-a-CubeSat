@@ -13,7 +13,7 @@ Program: [IncidenceCalculations.m]([url](https://github.com/ConcealedHero/Develo
   Solar irradiance reflected from Earth's atmosphere is not considered within these calculations. 
   This program splits the calculations for one, two, and three irradiated solar panels.
   
-  Methodology Concept Explanation:
+  Concept Methodology:
   For only one irradiated solar panel, this indicates that the incidence angle must be 0°.
   
   For only two irradiated solar panels, it is first assumed that only one face is irradiated; the corresponding incidence angles are 0° and 90°. 
