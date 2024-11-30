@@ -24,3 +24,8 @@ Program: [IncidenceCalculations.m]([url](https://github.com/ConcealedHero/Develo
   By considering an angular change of 1° for each face, the incident angle for each face must converge to 45°.
   
   This methodology was formed on the basis that a maximum of three faces could be observed at any given time.
+
+Program: [TemperatureCalculations.m]([url](https://github.com/ConcealedHero/Development-of-a-Solar-Array-Deployment-Mechanism-for-a-CubeSat/blob/main/TemperatureCalculations.m))
+
+  Description:
+  This program improves the accuracy of the IncidenceCalculations.m program by considering the impact that cell temperature has on the power generation capabilities of a solar array
