@@ -22,7 +22,7 @@ void selectMuxChannel(uint8_t multiplexerChannel, uint8_t multiplexerAddress) {
   Wire.endTransmission();
 }
 
-// Checks the connection of the multiplexer and the initalization of the INA219 sensors
+// Checks the connection of the multiplexer and the initialization of the INA219 sensors
 void setup() {
   Wire.begin();
   Serial.begin(9600);
@@ -32,13 +32,13 @@ void setup() {
     for (int ch = 0; ch < 5; ch++) { // Channel cycling
       if (mux == 1 && ch == 4) continue; // Skips unused channel
       selectMuxChannel(ch, muxAddr);
-      if (!ina219s[mux][ch].begin()) { // Checks if the INA219 was initalized
+      if (!ina219s[mux][ch].begin()) { // Checks if the INA219 was initialized
         Serial.print("INA219 not found on multiplexer ");
         Serial.print(mux + 1);
         Serial.print(" channel ");
         Serial.println(ch);
       } else {
-        ina219s[mux][ch].setCalibration_16V_400mA(); // If INA219 is initalized,  the lowest predefined calibration range is used
+        ina219s[mux][ch].setCalibration_16V_400mA(); // If INA219 is initialized,  the lowest predefined calibration range is used
       }
     }
   }
