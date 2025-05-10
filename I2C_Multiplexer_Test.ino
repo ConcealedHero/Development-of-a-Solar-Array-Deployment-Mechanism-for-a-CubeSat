@@ -1,10 +1,10 @@
-  /*
+/*
     Christopher Hernandez
     Development of a Solar Array Deployment Mechanism for a CubeSat
     INA219 and PCA9548A Integration Test
     April 2025
     This program tests the INA219 current sensors and the PCA9548A I2C multiplexer.
-  */
+*/
 #include <Wire.h>
 #include <Adafruit_INA219.h>
 
