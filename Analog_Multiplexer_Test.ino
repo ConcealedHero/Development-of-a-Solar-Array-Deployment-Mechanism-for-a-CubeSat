@@ -2,6 +2,7 @@
     Christopher Hernandez
     Development of a Solar Array Deployment Mechanism for a CubeSat
     TEMT6000 Integration Test
+    April 2025
     This program tests the TEMT6000 LSA connection to the multiplexer.
   */
   
