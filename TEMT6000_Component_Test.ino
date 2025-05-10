@@ -1,7 +1,7 @@
 /*
   Christopher Hernandez
   Development of a Solar Array Deployment Mechanism for a CubeSat
-  TEMT6000 Unit Test
+  TEMT6000 Component Test
   April 2025
   This program measures the ADC values of the TEMT6000 based on the ambient light level.
 */
