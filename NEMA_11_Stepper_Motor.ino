@@ -10,7 +10,7 @@ const int dirPin = 9;
 const int stepsPerRevolution = 200;
 
 /*
-  Current draw testing
+  Current draw test
            Step-dir pins
   Motor 4: 8-7, 0.275 amps
   Motor 3: 10-9, 0.340 amps
