@@ -1,7 +1,7 @@
 /*
     Christopher Hernandez
     Development of a Solar Array Deployment Mechanism for a CubeSat
-    NEMA 11 Integration Test
+    NEMA 11 and DRV8825 Integration Test
     This program tests whether the NEMA 11 motor could rotate CW and CCW.
 */
 
